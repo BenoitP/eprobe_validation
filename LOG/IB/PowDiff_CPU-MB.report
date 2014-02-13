@@ -1,0 +1,128 @@
+#Compute p-value:
+#Cores Impact
+1 -> 2 1.6 GHz:
+  Q1:-0.456447 Q3:-0.3020862
+  p-value = 1
+  Max accepted CL = 0
+  The proportion of positive values: 0
+1 -> 2 3.4 GHz:
+  Q1:2.459489 Q3:2.669145
+  p-value = 6.342625e-84
+  Max accepted CL = 100
+  The proportion of positive values: 100
+1 -> 3 1.6 GHz:
+  Q1:-0.5212567 Q3:-0.4058305
+  p-value = 1
+  Max accepted CL = 0
+  The proportion of positive values: 0
+1 -> 3 3.4 GHz:
+  Q1:2.950266 Q3:3.266033
+  p-value = 6.342625e-84
+  Max accepted CL = 100
+  The proportion of positive values: 100
+1 -> 4 1.6 GHz:
+  Q1:1.789159 Q3:1.960798
+  p-value = 6.342625e-84
+  Max accepted CL = 100
+  The proportion of positive values: 100
+1 -> 4 3.4 GHz:
+  Q1:3.778528 Q3:4.2483
+  p-value = 6.342625e-84
+  Max accepted CL = 100
+  The proportion of positive values: 100
+1 -> 8 1.6 GHz:
+  Q1:1.791711 Q3:1.937433
+  p-value = 6.342625e-84
+  Max accepted CL = 100
+  The proportion of positive values: 100
+1 -> 8 3.4 GHz:
+  Q1:3.995913 Q3:4.391667
+  p-value = 6.342625e-84
+  Max accepted CL = 100
+  The proportion of positive values: 100
+2 -> 3 1.6 GHz:
+  Q1:-0.1466333 Q3:-0.03667816
+  p-value = 1
+  Max accepted CL = 0
+  The proportion of positive values: 15.6
+2 -> 3 3.4 GHz:
+  Q1:0.4608799 Q3:0.6504008
+  p-value = 6.342625e-84
+  Max accepted CL = 100
+  The proportion of positive values: 100
+2 -> 4 1.6 GHz:
+  Q1:2.173582 Q3:2.33676
+  p-value = 6.342625e-84
+  Max accepted CL = 100
+  The proportion of positive values: 100
+2 -> 4 3.4 GHz:
+  Q1:1.271508 Q3:1.649927
+  p-value = 6.342625e-84
+  Max accepted CL = 100
+  The proportion of positive values: 100
+2 -> 8 1.6 GHz:
+  Q1:2.174172 Q3:2.301016
+  p-value = 6.342625e-84
+  Max accepted CL = 100
+  The proportion of positive values: 100
+2 -> 8 3.4 GHz:
+  Q1:1.473646 Q3:1.787983
+  p-value = 6.342625e-84
+  Max accepted CL = 100
+  The proportion of positive values: 100
+3 -> 4 1.6 GHz:
+  Q1:2.294119 Q3:2.391124
+  p-value = 6.342625e-84
+  Max accepted CL = 100
+  The proportion of positive values: 100
+3 -> 4 3.4 GHz:
+  Q1:0.8031191 Q3:1.031565
+  p-value = 6.342625e-84
+  Max accepted CL = 100
+  The proportion of positive values: 100
+3 -> 8 1.6 GHz:
+  Q1:2.268318 Q3:2.387663
+  p-value = 6.342625e-84
+  Max accepted CL = 100
+  The proportion of positive values: 100
+3 -> 8 3.4 GHz:
+  Q1:0.9243956 Q3:1.225755
+  p-value = 6.342625e-84
+  Max accepted CL = 100
+  The proportion of positive values: 100
+4 -> 8 1.6 GHz:
+  Q1:-0.0978464 Q3:0.06997336
+  p-value = 0.9971596
+  Max accepted CL = 0.28
+  The proportion of positive values: 48
+4 -> 8 3.4 GHz:
+  Q1:-0.01777973 Q3:0.3546928
+  p-value = 1.924451e-28
+  Max accepted CL = 100
+  The proportion of positive values: 74.2
+#Frequency impact:
+1:
+  Q1:-0.5025659 Q3:-0.3745181
+  p-value = 1
+  Max accepted CL = 0
+  The proportion of positive values: 0.2
+2:
+  Q1:2.372184 Q3:2.602228
+  p-value = 6.342625e-84
+  Max accepted CL = 100
+  The proportion of positive values: 100
+3:
+  Q1:2.985781 Q3:3.262941
+  p-value = 6.342625e-84
+  Max accepted CL = 100
+  The proportion of positive values: 100
+4:
+  Q1:1.504168 Q3:1.897125
+  p-value = 6.342625e-84
+  Max accepted CL = 100
+  The proportion of positive values: 100
+5:
+  Q1:1.713554 Q3:2.044765
+  p-value = 6.342625e-84
+  Max accepted CL = 100
+  The proportion of positive values: 100

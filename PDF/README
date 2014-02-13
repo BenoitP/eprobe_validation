@@ -1,0 +1,17 @@
+eprobe_validation
+=================
+
+For each test machine, this directory contains the following pdf files:
+
+1) His_CPU-MB_FREQ_"%02d".pdf: files that report the histogram of power 
+   increase difference between the DPM and RAPL when the power at the 
+   minimal CPU frequency is compared to power at the maximal CPU frequency 
+   at a fixed number of cores.
+
+2) His_CPU-MB_PROC_"%02d".pdf: files that report the histogram of power 
+   increase difference between the DPM and RAPL when the benchmarks are
+   run for each pair of an increasing number of cores at a fixed CPU 
+   frequency.
+
+Data related to the temperature and the idleness are contained in the
+POWTEMP and idleOFF sub-directories.

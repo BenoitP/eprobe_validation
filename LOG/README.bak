@@ -1,0 +1,11 @@
+eprobe_validation
+=================
+
+For each test machine, this directory contains power differnce increase
+data between the DPM and RAPL. The later information is reported in the
+files "Power_CPU-MB.csv". It also contains staistical analysis data that
+reports the accuracy of CPU energy probes in the "PowDiff_CPU-MB.report"
+files.
+
+Data related to the temperature and the idleness are contained in the
+POWTEMP and idleOFF sub-directories.

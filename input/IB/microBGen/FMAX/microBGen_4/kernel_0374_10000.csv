@@ -1,0 +1,6 @@
+"Eval '/home/users/amazouz/Tool/microlaunch/Libraries/energy/energy.so'","Eval '/home/users/amazouz/Tool/likwid_power/likwid_energy.so'","Eval '/home/users/amazouz/Tool/microlaunch/Libraries/pfmcounters/pfmcounters.so'","Eval '/home/users/amazouz/Tool/microlaunch/Libraries/timer/timer.so'","Eval '/home/users/amazouz/Tool/microlaunch/Libraries/cpuTemp/cpuTemp.so'","Id of current run","Number of resumes","Number of arrays","Vector #1 alignment",
+1040.068800,488.566849,231045.000000,63408498628.000000,53.000000,1,0,1,0,
+1040.472000,489.187958,226717.000000,63412539388.000000,53.500000,1,0,1,0,
+1040.472000,489.931198,227199.000000,63406376620.000000,53.500000,1,0,1,0,
+1040.580000,489.502365,225686.000000,63406171420.000000,53.500000,1,0,1,0,
+1040.400000,489.339844,233069.000000,63410516824.000000,54.000000,1,0,1,0,

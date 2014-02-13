@@ -1,0 +1,83 @@
+#Compute p-value:
+#Cores Impact
+1 -> 2 1.6 GHz:
+  Q1:-0.1927964 Q3:-0.05690183
+  p-value = 1
+  Max accepted CL = 0
+  The proportion of positive values: 13.8
+1 -> 2 3.1 GHz:
+  Q1:-0.3947692 Q3:-0.125586
+  p-value = 1
+  Max accepted CL = 0
+  The proportion of positive values: 13.8
+1 -> 3 1.6 GHz:
+  Q1:4.333731 Q3:4.528891
+  p-value = 6.342625e-84
+  Max accepted CL = 100
+  The proportion of positive values: 100
+1 -> 3 3.1 GHz:
+  Q1:-1.029472 Q3:-0.4381252
+  p-value = 1
+  Max accepted CL = 0
+  The proportion of positive values: 10.8
+1 -> 4 1.6 GHz:
+  Q1:4.214702 Q3:4.537452
+  p-value = 6.342625e-84
+  Max accepted CL = 100
+  The proportion of positive values: 100
+1 -> 4 3.1 GHz:
+  Q1:-0.8289472 Q3:-0.07245096
+  p-value = 1
+  Max accepted CL = 0
+  The proportion of positive values: 20.8
+2 -> 3 1.6 GHz:
+  Q1:4.497045 Q3:4.639003
+  p-value = 6.342625e-84
+  Max accepted CL = 100
+  The proportion of positive values: 100
+2 -> 3 3.1 GHz:
+  Q1:-0.7019565 Q3:-0.3100836
+  p-value = 1
+  Max accepted CL = 0
+  The proportion of positive values: 10.8
+2 -> 4 1.6 GHz:
+  Q1:4.364327 Q3:4.605233
+  p-value = 6.342625e-84
+  Max accepted CL = 100
+  The proportion of positive values: 100
+2 -> 4 3.1 GHz:
+  Q1:-0.5178966 Q3:0.08338461
+  p-value = 1
+  Max accepted CL = 0
+  The proportion of positive values: 31.4
+3 -> 4 1.6 GHz:
+  Q1:-0.1684564 Q3:0.0373995
+  p-value = 1
+  Max accepted CL = 0
+  The proportion of positive values: 33.2
+3 -> 4 3.1 GHz:
+  Q1:0.1446845 Q3:0.5101771
+  p-value = 2.494633e-36
+  Max accepted CL = 100
+  The proportion of positive values: 85.8
+#Frequency impact:
+1:
+  Q1:6.063602 Q3:6.271816
+  p-value = 6.342625e-84
+  Max accepted CL = 100
+  The proportion of positive values: 100
+2:
+  Q1:5.865984 Q3:6.199201
+  p-value = 6.342625e-84
+  Max accepted CL = 100
+  The proportion of positive values: 100
+3:
+  Q1:0.6804552 Q3:1.260295
+  p-value = 7.943864e-76
+  Max accepted CL = 100
+  The proportion of positive values: 97
+4:
+  Q1:0.944472 Q3:1.63498
+  p-value = 2.108618e-76
+  Max accepted CL = 100
+  The proportion of positive values: 95.4

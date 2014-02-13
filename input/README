@@ -1,0 +1,15 @@
+eprobe_validation
+=================
+
+For each test machine, this directory contains the following sub-directories:
+
+microBGen/ Power measurements data when the CPU frequency and the 
+           number of cores are varied.
+
+POWTEMP/   Power measurements data for the temperature parameter 
+           obtained for the minimal and the maximal CPU frequency 
+           and running with 1 core.
+
+idleOFF/   Power measurements data when the CPU is running at the
+           different c-states available on the machine (only on SB).
+           

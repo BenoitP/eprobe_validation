@@ -1,0 +1,11 @@
+      <instruction>
+         <operation>cmp</operation>
+
+         <immediate>
+            <value>43</value>
+         </immediate>
+
+         <register>
+            <phyName>%ecx</phyName>
+         </register>
+      </instruction>

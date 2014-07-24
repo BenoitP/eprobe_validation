@@ -1,0 +1,11 @@
+      <instruction>
+         <operation>mov</operation>
+
+         <immediate>
+            <value>43</value>
+         </immediate>
+
+         <register>
+            <phyName>%ebx</phyName>
+         </register>
+      </instruction>

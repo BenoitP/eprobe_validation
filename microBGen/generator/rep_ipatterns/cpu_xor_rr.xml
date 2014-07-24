@@ -1,0 +1,11 @@
+      <instruction>
+         <operation>xor</operation>
+
+         <register>
+            <phyName>%ebx</phyName>
+         </register>
+
+         <register>
+            <phyName>%ecx</phyName>
+         </register>
+      </instruction>

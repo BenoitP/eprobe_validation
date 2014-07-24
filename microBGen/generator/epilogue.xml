@@ -1,0 +1,48 @@
+      <!--end instruction part -->
+      <!--features part-->
+      <unrolling>
+         <min>8</min>
+         <max>8</max>
+      </unrolling>
+
+      <induction>
+         <register>
+            <phyName>%eax</phyName>
+         </register>
+         <increment>1</increment>
+         <not_affected_unroll/>
+      </induction>
+
+      <induction>
+         <register>
+            <name>r1</name>
+         </register>
+         <increment>16</increment>
+         <offset>16</offset>
+      </induction>
+
+      <induction>
+         <register>
+            <name>r0</name>
+         </register>
+         <increment>-16</increment>
+         <last_induction/>
+      </induction>
+
+      <branch_information>
+         <label>L6</label>
+         <test>jge</test>
+      </branch_information>
+   </kernel>
+
+   <kernel>
+      <insert_code>
+         <file>../epilogue.s</file>
+      </insert_code>
+   </kernel>
+
+   <hardware_detector>
+      <execute>../microdetect ../md_args.c /tmp/md_output</execute>
+      <information_file>/tmp/md_output</information_file>
+   </hardware_detector>
+</description>

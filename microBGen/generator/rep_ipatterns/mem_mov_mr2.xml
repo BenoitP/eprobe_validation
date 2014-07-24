@@ -1,0 +1,16 @@
+      <instruction>
+         <operation>mov</operation>
+
+         <memory>
+            <register>
+               <name>r1</name>
+            </register>
+            <offset>0</offset>
+         </memory>
+
+         <register>
+            <phyName>%r</phyName>
+            <min>8</min>
+            <max>15</max>
+         </register>
+      </instruction>

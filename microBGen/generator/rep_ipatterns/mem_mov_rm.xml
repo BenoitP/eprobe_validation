@@ -1,0 +1,14 @@
+      <instruction>
+         <operation>mov</operation>
+
+         <register>
+            <phyName>%ebx</phyName>
+         </register>
+
+         <memory>
+            <register>
+               <name>r1</name>
+            </register>
+            <offset>0</offset>
+         </memory>
+      </instruction>

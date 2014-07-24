@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<description>
+   <kernel>
+      <insert_code>
+         <file>../prologue.s</file>
+      </insert_code>
+   </kernel>
+
+   <kernel>
+      <!--instruction part -->
+      <!--allow instructions to be randomized in benchmarks-->
+

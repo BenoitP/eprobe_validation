@@ -8,13 +8,14 @@ statProt <- function(data, logF, confTest)
 	qts <- quantile(data, probs=c(0.25,0.75))
 	cat("  Q1:",qts[1], " Q3:", qts[2], "\n", sep = "", file=logF, append=T)
 	#Test the sign of the vector
-	wlxt <- wilcox.test(data, conf.level=lev, alte="g")
+	wlxt <- wilcox.test(data, conf.level=lev, alte="l")
  	cat("  p-value = ", wlxt$p.value, "\n", sep = "", file=logF, append=T)
- 	cat("  Max accepted CL = ", round((1-wlxt$p.value)*100, 2), "\n", sep = "", file=logF, append=T)
-	a <- sum(data >=0, na.rm=T)
+# 	cat("  Max accepted CL = ", round((1-wlxt$p.value)*100, 2), "\n", sep = "", file=logF, append=T)
+ 	cat("  Accepting prob = ", round((1-wlxt$p.value)*100, 2), "\n", sep = "", file=logF, append=T)
+	a <- sum(data < 0, na.rm=T)
 	b <- length(data)
 	cint <- a/b
-	cat("  The proportion of positive values: ", round(cint*100,2), "\n", 			
+	cat("  The proportion of negative values: ", round(cint*100,2), "\n", 			
 						sep = "", file=logF, append=T)
 	return (1-wlxt$p.value)
 }
@@ -45,7 +46,7 @@ if(! PERCONF) {
 					xlab=bquote("Values in "*Delta*italic(P)),
 			     	main=paste("Min vs Max CPU Freq\n#Cores:",NBPROC[i], 
 								" ", lab, sep=""))
-			count <- sum(vec >=0, na.rm=T)
+			count <- sum(vec <0, na.rm=T)
 			total <- sum(!is.na(vec))
        	 	leg <- c(
 				as.expression(bquote(1-italic(p)-value == .(round(myp*100,1))*symbol("\045"))),
@@ -92,7 +93,7 @@ if(! PERCONF) {
                     ylab="Number of occurrences",
 					xlab=bquote("Values in "*Delta*italic(P)),
 					main=paste("#Cores:", CORESLAB[i], "\nCPU Freq:",Freq[j], " ", lab, sep=""))
-				count <- sum(vec >=0, na.rm=T)
+				count <- sum(vec <0, na.rm=T)
 				total <- sum(!is.na(vec))
                 leg <- c(
 					as.expression(bquote(1-italic(p)-value == .(round(myp*100,1))*symbol("\045"))),
@@ -128,7 +129,7 @@ if(! PERCONF) {
 					xlab=bquote("Values in "*Delta*italic(P)),
 					main=paste("Cold vs Warm CPU\n#Cores:",NBPROC[1], 
 							   "; CPU Freq:",Freq[i], sep=""))
-				count <- sum(vec >=0, na.rm=T)
+				count <- sum(vec <0, na.rm=T)
 				total <- sum(!is.na(vec))
                 leg <- c(
 					as.expression(bquote(1-italic(p)-value == .(round(myp*100,1))*symbol("\045"))),

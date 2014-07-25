@@ -2,11 +2,11 @@
 #Frequency impact:
 1:
   Q1:-0.2606111 Q3:-0.1882083
-  p-value = 1
-  Max accepted CL = 0
-  The proportion of positive values: 0
+  p-value = 6.342625e-84
+  Accepting prob = 100
+  The proportion of negative values: 100
 2:
   Q1:-0.1520959 Q3:-0.06118464
-  p-value = 1
-  Max accepted CL = 0
-  The proportion of positive values: 12.2
+  p-value = 1.015171e-67
+  Accepting prob = 100
+  The proportion of negative values: 87.8

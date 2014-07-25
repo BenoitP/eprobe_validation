@@ -2,82 +2,82 @@
 #Cores Impact
 1 -> 2 1.6 GHz:
   Q1:-0.1927964 Q3:-0.05690183
-  p-value = 1
-  Max accepted CL = 0
-  The proportion of positive values: 13.8
+  p-value = 6.956759e-49
+  Accepting prob = 100
+  The proportion of negative values: 86.2
 1 -> 2 3.1 GHz:
   Q1:-0.3947692 Q3:-0.125586
-  p-value = 1
-  Max accepted CL = 0
-  The proportion of positive values: 13.8
+  p-value = 3.25184e-36
+  Accepting prob = 100
+  The proportion of negative values: 86.2
 1 -> 3 1.6 GHz:
   Q1:4.333731 Q3:4.528891
-  p-value = 6.342625e-84
-  Max accepted CL = 100
-  The proportion of positive values: 100
+  p-value = 1
+  Accepting prob = 0
+  The proportion of negative values: 0
 1 -> 3 3.1 GHz:
   Q1:-1.029472 Q3:-0.4381252
-  p-value = 1
-  Max accepted CL = 0
-  The proportion of positive values: 10.8
+  p-value = 4.410159e-41
+  Accepting prob = 100
+  The proportion of negative values: 89.2
 1 -> 4 1.6 GHz:
   Q1:4.214702 Q3:4.537452
-  p-value = 6.342625e-84
-  Max accepted CL = 100
-  The proportion of positive values: 100
+  p-value = 1
+  Accepting prob = 0
+  The proportion of negative values: 0
 1 -> 4 3.1 GHz:
   Q1:-0.8289472 Q3:-0.07245096
-  p-value = 1
-  Max accepted CL = 0
-  The proportion of positive values: 20.8
+  p-value = 1.045454e-47
+  Accepting prob = 100
+  The proportion of negative values: 79.2
 2 -> 3 1.6 GHz:
   Q1:4.497045 Q3:4.639003
-  p-value = 6.342625e-84
-  Max accepted CL = 100
-  The proportion of positive values: 100
+  p-value = 1
+  Accepting prob = 0
+  The proportion of negative values: 0
 2 -> 3 3.1 GHz:
   Q1:-0.7019565 Q3:-0.3100836
-  p-value = 1
-  Max accepted CL = 0
-  The proportion of positive values: 10.8
+  p-value = 1.144905e-41
+  Accepting prob = 100
+  The proportion of negative values: 89.2
 2 -> 4 1.6 GHz:
   Q1:4.364327 Q3:4.605233
-  p-value = 6.342625e-84
-  Max accepted CL = 100
-  The proportion of positive values: 100
+  p-value = 1
+  Accepting prob = 0
+  The proportion of negative values: 0
 2 -> 4 3.1 GHz:
   Q1:-0.5178966 Q3:0.08338461
-  p-value = 1
-  Max accepted CL = 0
-  The proportion of positive values: 31.4
+  p-value = 1.037339e-24
+  Accepting prob = 100
+  The proportion of negative values: 68.6
 3 -> 4 1.6 GHz:
   Q1:-0.1684564 Q3:0.0373995
-  p-value = 1
-  Max accepted CL = 0
-  The proportion of positive values: 33.2
+  p-value = 1.130868e-17
+  Accepting prob = 100
+  The proportion of negative values: 66.8
 3 -> 4 3.1 GHz:
   Q1:0.1446845 Q3:0.5101771
-  p-value = 2.494633e-36
-  Max accepted CL = 100
-  The proportion of positive values: 85.8
+  p-value = 1
+  Accepting prob = 0
+  The proportion of negative values: 14.2
 #Frequency impact:
 1:
   Q1:6.063602 Q3:6.271816
-  p-value = 6.342625e-84
-  Max accepted CL = 100
-  The proportion of positive values: 100
+  p-value = 1
+  Accepting prob = 0
+  The proportion of negative values: 0
 2:
   Q1:5.865984 Q3:6.199201
-  p-value = 6.342625e-84
-  Max accepted CL = 100
-  The proportion of positive values: 100
+  p-value = 1
+  Accepting prob = 0
+  The proportion of negative values: 0
 3:
   Q1:0.6804552 Q3:1.260295
-  p-value = 7.943864e-76
-  Max accepted CL = 100
-  The proportion of positive values: 97
+  p-value = 1
+  Accepting prob = 0
+  The proportion of negative values: 3
 4:
   Q1:0.944472 Q3:1.63498
-  p-value = 2.108618e-76
-  Max accepted CL = 100
-  The proportion of positive values: 95.4
+  p-value = 1
+  Accepting prob = 0
+  The proportion of negative values: 4.6

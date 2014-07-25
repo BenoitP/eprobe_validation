@@ -1,11 +1,12 @@
 #Compute p-value:
+#Frequency impact:
 1:
   Q1:0.1126776 Q3:0.2190826
-  p-value = 8.097988e-58
-  Max accepted CL = 100
-  The proportion of positive values: 93.6
+  p-value = 1
+  Accepting prob = 0
+  The proportion of negative values: 6.4
 2:
   Q1:0.07769482 Q3:0.2304512
-  p-value = 1.22779e-73
-  Max accepted CL = 100
-  The proportion of positive values: 92.4
+  p-value = 1
+  Accepting prob = 0
+  The proportion of negative values: 7.6
